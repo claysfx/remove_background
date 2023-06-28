@@ -1,6 +1,6 @@
 # Como remover fundo de imagens com Python
  utilize as ferramentas PIL e Rembg para remover o fundo de qualquer imagem utilizando a linguagem Python.
-[https://github.com/claysfx/remove_background/blob/main/remove_background.ipynb]
+https://github.com/claysfx/remove_background/blob/main/remove_background.ipynb
 
 <p float="left">
 
