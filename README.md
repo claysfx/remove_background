@@ -17,8 +17,8 @@ pip install rembg
 ---
 2. importe as funcionalidades das bibliotecas:
 ``` bash
-from rembg import remove
 from PIL import Image
+from rembg import remove
 ```
 ---
 3. utilize **Image.open()** para aplicar a imagem em uma variável:
