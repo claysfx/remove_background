@@ -23,7 +23,7 @@ from rembg import remove
 ---
 3. utilize **Image.open()** para aplicar a imagem em uma variável, especificando o endereço do arquivo nos parenteses:
 ``` bash
-img = Image.open('imagens/mustang.png.png')
+img = Image.open('imagens/mustang.png')
 ```
 ---
 4. utilize **remove()** para remover o fundo da imagem:
