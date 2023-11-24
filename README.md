@@ -1,6 +1,6 @@
 # como remover fundo de imagens com Python
 
-uma das principais ferramentas utilizadas no design é a remoção de fundo para a criação de artes. [neste código](https://github.com/claysfx/remove_background/blob/main/remove_background.ipynb) de poucas linhas, você conseguirá fazer essa remoção de forma automatizada.
+uma das principais ferramentas utilizadas no design é a remoção de fundo para a criação de artes. [neste código](https://github.com/claysfx/remove_background/blob/main/remove_background.py) de poucas linhas, você conseguirá fazer essa remoção de forma automatizada.
 
 ---
 
@@ -21,7 +21,7 @@ from PIL import Image
 from rembg import remove
 ```
 ---
-3. utilize **Image.open()** para aplicar a imagem em uma variável:
+3. utilize **Image.open()** para aplicar a imagem em uma variável, especificando o endereço do arquivo nos parenteses:
 ``` bash
 img = Image.open('imagens/mustang.png.png')
 ```
@@ -31,7 +31,7 @@ img = Image.open('imagens/mustang.png.png')
 img_semfundo = remove(img)
 ```
 ---
-5. após a finalização, baixe a imagem utilizando **save()**
+5. após a finalização, baixe a imagem utilizando **save()**, especificando o endereço de download nos parenteses:
 ``` bash
 img_semfundo.save('imagens/mustang_sem_fundo.png')
 ```
