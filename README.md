@@ -23,7 +23,7 @@ from rembg import remove
 ---
 3. utilize **Image.open()** para aplicar a imagem em uma variável:
 ``` bash
-img = Image.open('local_do_arquivo\nome_do_arquivo.png')
+img = Image.open('imagens/mustang.png.png')
 ```
 ---
 4. utilize **remove()** para remover o fundo da imagem:
@@ -33,16 +33,16 @@ img_semfundo = remove(img)
 ---
 5. após a finalização, baixe a imagem utilizando **save()**
 ``` bash
-img_semfundo.save('local_do_arquivo\nome_do_novo_arquivo.png')
+img_semfundo.save('imagens/mustang_sem_fundo.png')
 ```
 ---
 imagem anterior:
 <p float="left">
- <img src="https://github.com/claysfx/remove_background/blob/main/Curva-Concepts-C300-Staggered-Ford-Mustang-Wheels-1.jpg" width="400" />
+ <img src="https://github.com/claysfx/remove_background/blob/main/imagens/mustang.jpg" width="400" />
 </p>
 imagem após a remoção:
 <p float="left">
- <img src="https://github.com/claysfx/remove_background/blob/main/imagem_sem_fundo.png" width="400" />
+ <img src="https://github.com/claysfx/remove_background/blob/main/imagens/mustang_sem_fundo.png" width="400" />
 </p>
 
 ---
